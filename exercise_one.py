@@ -8,14 +8,9 @@ If a string is longer than the other, append the additional letters onto the end
 def mergeAlternately():
     word_one = "abc"
     word_two = "pqr"
-    first_word_one = word_one[0]
-    first_word_two = word_two[0]
-    # TODO: Make this part working 
-    first_word = int(word_one) - int(first_word_one)
-    # TODO: Make this part working as well 
-    second_word = word_two - first_word_two
-    #This is just the output
-    print(first_word + second_word)
+
+    
+
     
 
 
