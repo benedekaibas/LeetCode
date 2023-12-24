@@ -8,10 +8,18 @@ If a string is longer than the other, append the additional letters onto the end
 def mergeAlternately():
     word_one = "abc"
     word_two = "pqr"
-
+    count_one = -1
+    for index in word_one:
+        count_one += 1
+        print(f"{index}: {count_one}")
     
+    print("\n")
+    count_two = -1
+    for index in word_two:
+        count_two += 1
+        print(f"{index}: {count_two}")
+        
 
-    
 
 
 
