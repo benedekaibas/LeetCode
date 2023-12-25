@@ -12,7 +12,7 @@ def mergeAlternately():
     for index in word_one:
         count_one += 1
         print(f"{index}: {count_one}")
-    
+
     print("\n")
     count_two = -1
     for index in word_two:
