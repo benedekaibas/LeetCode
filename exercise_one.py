@@ -13,6 +13,12 @@ def mergeAlternately():
         count_one += 1
         print(f"{index}: {count_one}")
 
+        # TODO: Finish this part since it will work 
+        if count_one % 2 != 0:
+            print(index)
+        
+
+
     print("\n")
     count_two = -1
     for index in word_two:
