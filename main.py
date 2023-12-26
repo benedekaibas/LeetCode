@@ -11,8 +11,13 @@ def main():
 
     for item in a:
         count = a.count(item)
-        print(count)
-        
 
+        if count <= 1:
+            print(item)
+        elif count >= 1:
+            print(f"This item appears multiple times: {item}")
+        else:
+            print("not working")
+        
 if __name__ == "__main__":
     main()
