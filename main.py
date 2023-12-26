@@ -12,12 +12,13 @@ def main():
     for item in a:
         count = a.count(item)
 
-        if count <= 1:
-            print(item)
-        elif count >= 1:
-            print(f"This item appears multiple times: {item}")
+        if count > 1:
+            remove = a.remove(item)
+            print(a)
         else:
-            print("not working")
-        
+            print("fhds")
+
+
+    #print(new_list)
 if __name__ == "__main__":
     main()
