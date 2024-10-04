@@ -4,10 +4,9 @@ from typing import List
 
 def remove_element(nums: List[int], val: int) -> int:
     """Function for implementing remove element method."""
-    while val in nums:
-        nums.remove(val)
-        nums[val] = "_"
-    return nums
+    
+    # we should use list comprehension since that's the most efficient way
+    
         
 if __name__ == "__main__":
     nums = [3,2,2,3]
