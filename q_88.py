@@ -1,4 +1,4 @@
-"""Merge Sorted Array"""
+"""88. Merge Sorted Array"""
 from typing import List
 
 def merge_array(list_one: List[int], m: int, list_two: List[int], n: int) -> None:
